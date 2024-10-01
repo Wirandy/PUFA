@@ -1,0 +1,53 @@
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <header>
+    
+        <body>
+                <div class="main-container"> 
+                <div class="nav">
+                <nav>
+                    <div class="">
+                        <img src="PUFA.png" alt="PUFA">
+                    </div>
+
+                    <div id="icon-u"class="icon-u">
+                        <i class="ph ph-list"></i>
+                        </div>
+                   
+                        <ul id="menu-list" class="hidden">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Event.html">Event</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="puma.html">PUMA</a></li>
+                        <li><a href="others.html">Others</a></li>
+                        <li><a href="login.html">Log in</a></li>
+                        <li><a href="signup.html">Sign up</a> </li>
+                        </ul> 
+                </nav>
+            </header>
+    <center>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="login.php" method="POST">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button a ="submit" class="bbn">Login</button>
+        </form>
+    </div></center>
+
+    <script src="main.js"></script>
+</body>
+</html>
